@@ -1,0 +1,491 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.navigation
+{
+    display: flex;
+    gap: 40px;
+    margin-left: 600px;
+}
+.navigation a 
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:  white;
+    padding-top: 15px;
+}
+.navigation a:hover
+{
+    color: yellow;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 3px;
+    transition: 1S ease-in;
+    transform: scale(0.84);
+}
+.container-header
+{
+    display: flex;
+    gap: 25px;
+    background-color: black;
+    height: 80px;
+
+}
+
+.logo-mini img
+{
+    width:75px ;
+    height:50px
+}
+.mini
+{
+    font-size: 20px;
+}
+.mini-text
+{
+    color: white;
+    padding-top: 10px;
+}
+.image
+{
+    border: 2px black green;
+    width: 100%;
+    display: flex;
+    
+}
+
+.img1
+{
+    border: 2px black solid;
+    width: 700px;
+    height: 530px;
+    background-image: url(naru\ son.jpeg);
+    animation-name: change-picture1;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+@keyframes change-picture1
+{
+   10%{background-image: url(img\ kratos2.jpeg);}
+   50%{background-image: url(img\ kratos.jpeg);}
+}
+
+.img2
+{
+    border: 2px black solid;
+    width: 500px;
+    height: 530px;
+    background-image: url(img\ naruto.jpeg);
+    animation-name: change-picture2;
+    animation-duration: 3s;
+    animation-delay:2s;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+@keyframes change-picture2
+{
+   10%{background-image: url(img\ kakashi.jpeg);}
+   30%{background-image: url(img\ gohan.jpeg);}
+}
+.img3
+{
+    border: 2px black solid;
+    width: 490px;
+    height: 530px;
+    background-image: url(img\ vegeta.jpeg);
+    animation-name: change-picture3;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
+}
+@keyframes change-picture3
+{
+   10%{background-image: url(img\ kane.jpeg);}
+   30%{background-image: url(naru\ son.jpeg);}
+
+}
+.img4
+{
+    border: 2px black solid;
+    width: 500px;
+    height: 530px;
+    background-image: url(img\ trevor.jpeg);
+    animation-name: change-picture4;
+    animation-duration: 3s;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+@keyframes change-picture4
+{
+   10%{background-image: url(img\ ronaldo.jpeg);}
+   50%{background-image: url(ronaldo.jpeg);}
+   30%{background-image: url(img\ messie.jpeg);}
+   
+}
+.play-game
+{
+    border: 2px green solid;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+    background-color:blueviolet;
+    cursor: pointer;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.play-game:hover
+{
+    transition: 1s ease-in;
+    background-color: gold;
+    color: white;
+    transform: scale(0.90);
+}
+.choose-game
+{
+    border: 3px black solid;
+    border-radius:1px;
+    padding-top: 30px;
+    height: 90.9px;
+    background-color: rgb(32, 32, 121);
+    animation-name: change-color;
+    animation-delay: 2s;
+    animation-duration:4s ;
+    animation-iteration-count: infinite;
+}
+.mini-know-more
+{
+    display: flex;
+    background-color: rgb(14, 117, 117);
+}
+.mini-know-more img
+{
+    width: 92%;
+
+}
+.first-sentence
+{
+    font-weight: bold;
+    font-size: xx-large;
+    padding-left: 10%;
+}
+.second-sentence
+{
+    font-style: normal;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.know-more
+{
+    padding-left: 10px;
+    margin-top: 2%;
+    border: 2px black solid;
+    width: 100px;
+    text-align: center;
+    height: 40px;
+    background-color: brown;
+    text-align: left;
+    border-radius: 10px;
+    margin-left: 450px;
+    cursor: pointer;
+    font-weight: bold;
+    transition:  ease-in 1.5s;
+}
+.know-more:hover
+{
+  background-color:rgb(32, 32, 121);
+  color: white;
+  transform: scale(0.80);
+  text-decoration: underline;
+}
+.purpose
+{
+    font-size: xx-large;
+}
+.what-new
+{
+    width: 100%;
+    color: white;
+    border: 2px white solid ;
+    background-color: red;
+    height: 50px;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 1.5%;
+}
+.left-easy-side
+{
+    background-color: gainsboro;
+    height: 210px;
+    
+}
+.text1
+{
+    font-weight: bold;
+}
+.text
+{  
+    padding-top: 25px;
+    padding-left: 170px;
+    font-size:18px;
+}
+.see-more
+{
+    background-color: red;
+    border: 2px red solid;
+    color: white;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 400px;
+    margin-top: 1%;
+    cursor: pointer;
+    transition: 1.2s ease-in;
+    
+}
+.easy
+{
+    display: flex;
+    margin-top: 4%;
+    gap: 20px;
+}
+.easy img
+{
+    width: 404px;
+    height: 200px;
+    cursor: pointer;
+}
+.see-more:hover
+{
+  background-color: rgb(30, 30, 150);
+  transform: scale(0.85);
+  font-size: 18px;
+  
+}
+.futur-lab
+{
+    display: flex;
+}
+.futur-lab-left-side img
+{
+  width: 600px;
+  height: 470px;
+  border-radius: 10px;
+}
+.futur-lab-right-side
+{
+    padding-top: 20px;
+    background-color: rgb(244, 241, 241);
+    padding-left: 50px;
+    width: 900px;
+}
+.futur
+{
+    font-weight: bold;
+    font-size: xx-large;
+}
+.success
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.marius,.Player
+{
+    display: flex;
+    gap: 5px;
+}
+.marius-right-side img
+{
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+}
+.marius-left-side
+{
+    background-color:  rgb(244, 241, 241);
+    padding-top: 100px;
+    width: 1000px;
+    padding-right: 10px;
+}
+.kakabi,.Cameroun
+{
+    font-weight: bold;
+    font-size: xx-large;
+    padding-left: 30px;
+}
+.After
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+}
+.carreer
+{
+    background-color: rgb(250, 189, 75);
+    width: 100%;
+    height: 700px;
+}
+.carriere
+{
+    padding-top: 90px;
+    padding-left: 60px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.message
+{
+    padding-left: 60px;
+    color: black;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.language
+{
+    padding-left: 60px;
+    display: flex;
+
+}
+.developer a 
+{
+    font-weight: bold;
+    text-decoration:  none;
+    color: black;
+}
+.language-middle-side
+{
+    margin-left: 9%;
+}
+.language-right-side
+{
+    margin-left: 25%;
+}
+.language-right-side img
+{
+    width: 570px;
+    height: 450px;
+    border-radius: 10px;
+    margin-top: -70px;
+}
+ .logoe-mini img 
+{
+    height: 150px;
+    width: 200px;
+    cursor: pointer;
+} 
+.see-position
+{
+    color: white;
+    
+    border: 2px black solid;
+    text-align: center;
+    width: 210px;
+    margin-left: 5%;
+    border-radius: 10px;
+    height: 40px;
+    padding-top: 10px;
+    background-color: black;
+    cursor: pointer;
+}
+.see-position:hover
+{
+    background-color: red;
+}
+
+.Mini-mini
+{
+    display: flex;
+    color: whitesmoke;
+   margin-left: 630px;
+}
+.footer-text
+{
+    font-size: 30px;
+    padding-top: 20px;
+    cursor:  pointer;
+}
+.footer
+{
+    background-color: black;
+    height: 500px;
+} 
+ .nav
+{
+    display: flex;
+   gap: 40px;
+   margin-left: 25%;
+}
+.nav a 
+{
+    text-decoration:  none;
+    color: white;
+    font-size: 18px;
+    transition: 1s ease-in;
+}
+.nav a:hover
+{
+   text-decoration: underline;
+   text-decoration-color: blue;
+   color: blue;
+   text-underline-offset: 3px;
+} 
+.second-part
+{
+    display: flex;
+    padding-top: 15px;
+    margin-left: 35%;
+}
+.privacy
+{
+    display: flex;
+    padding-top: 15px;
+    margin-left: 22%;
+    gap: 20px;
+}
+
+.privacy a 
+{
+    color: white;
+    text-decoration: none;
+    transition: 1s ease-in;
+}
+.privacy a:hover
+{
+    text-decoration: underline;
+    color: red;
+    transform: scale(0.45);
+}
+.app img 
+{
+    width: 60px;
+
+}
+.app img:hover
+{
+    transform: scale(0.75);
+}
+.marius-right-side img:hover
+{
+ filter: grayscale(1);
+}
